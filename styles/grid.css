@@ -1,0 +1,70 @@
+#grid-container {
+    display: grid;
+}
+
+@media (min-width: 0px) {
+    #grid-container {
+        grid-template-columns: auto 70vw auto;
+        grid-template-rows: 20vh auto auto 20vh;
+    }
+}
+
+@media (min-width: 690px) {
+    #grid-container {
+        grid-template-columns: 15vw 70vw 15vw;
+        grid-template-rows: 20vh auto auto 20vh;
+    }
+}
+
+@media (min-width: 917px) {
+    #grid-container {
+        grid-template-columns: 15vw 70vw 15vw;
+        grid-template-rows: 20vh 10vh 50vh 20vh;
+    }
+}
+
+#div1 {
+    grid-area: 1 / 1 / 4 / 2;
+    display: grid;
+    place-items: center;
+}
+
+#div2 {
+    grid-area: 1 / 2 / 2 / 4;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    place-items: center;
+}
+
+#div3 {
+    grid-area: 2 / 2 / 3 / 3;
+    display: grid;
+    place-items: center;
+}
+
+#div4 {
+    grid-area: 2 / 3 / 4 / 4;
+    display: grid;
+    place-items: center;
+}
+
+#div5 {
+    grid-area: 3 / 2 / 4 / 3;
+    display: grid;
+    place-items: center;
+}
+
+#div6 {
+    grid-area: 4 / 1 / 5 / 4;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    place-items: center;
+}
+
+.text-box {
+    background-color: white;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 0px 20px;
+}

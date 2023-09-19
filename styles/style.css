@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.blue {
+    background-color: #C6D9F1;
+}
+
+.orange {
+    background-color: #FDE9D9;
+}
+
+.green {
+    background-color: #EAF1DD;
+}
+
+.white {
+    background-color: #FFFFFF;
+}
+
+.num-div {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+h3 {
+    margin: 0;
+}

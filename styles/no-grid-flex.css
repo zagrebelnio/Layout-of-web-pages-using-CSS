@@ -1,0 +1,110 @@
+#container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.num-div {
+    padding: 0;
+}
+
+#div1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 80%;
+}
+
+#div2 {
+    position: absolute;
+    top: 0;
+    left: 15%;
+    width: 85%;
+    height: 20%;
+}
+
+#div3 {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    width: 70%;
+    height: 10%;
+}
+
+#div4 {
+    position: absolute;
+    top: 20%;
+    left: 85%;
+    width: 15%;
+    height: 60%;
+}
+
+#div5 {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    width: 70%;
+    height: 50%;
+}
+
+#div6 {
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 100%;
+    height: 20%;
+}
+
+.menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.columns {
+    position: absolute;
+    columns: 2;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.text-box {
+    background-color: white;
+    display: inline-block;
+    padding: 0 20px;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+#div3 > * {
+    position: absolute;
+    width: 98%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#div4 > * {
+    position: absolute;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#div5 > * {
+    position: absolute;
+    width: 98%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

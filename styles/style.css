@@ -3,6 +3,7 @@ body {
     padding: 0;
 }
 
+/* colors */
 .blue {
     background-color: #C6D9F1;
 }
@@ -19,6 +20,7 @@ body {
     background-color: #FFFFFF;
 }
 
+/* blocks padding and border */
 .num-div {
     padding: 20px;
     border: 1px solid black;

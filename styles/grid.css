@@ -1,7 +1,9 @@
+/* page container */
 #grid-container {
     display: grid;
 }
 
+/* grid template for different display width */
 @media (min-width: 0px) {
     #grid-container {
         grid-template-columns: auto 70vw auto;
@@ -23,12 +25,14 @@
     }
 }
 
+/* menu sidebar */
 #div1 {
     grid-area: 1 / 1 / 4 / 2;
     display: grid;
     place-items: center;
 }
 
+/* topbar (title) */
 #div2 {
     grid-area: 1 / 2 / 2 / 4;
     display: grid;
@@ -36,24 +40,28 @@
     place-items: center;
 }
 
+/* small text section */
 #div3 {
     grid-area: 2 / 2 / 3 / 3;
     display: grid;
     place-items: center;
 }
 
+/* right sidebar */
 #div4 {
     grid-area: 2 / 3 / 4 / 4;
     display: grid;
     place-items: center;
 }
 
+/* main text section */
 #div5 {
     grid-area: 3 / 2 / 4 / 3;
     display: grid;
     place-items: center;
 }
 
+/* footer */
 #div6 {
     grid-area: 4 / 1 / 5 / 4;
     display: grid;
@@ -61,6 +69,7 @@
     place-items: center;
 }
 
+/* quotes blocks */
 .text-box {
     background-color: white;
     width: auto;

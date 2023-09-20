@@ -1,70 +1,83 @@
+/* all page container contains 2 blocks: main container and footer */
 #page-container {
     height: 100vh;
     display: flex;
     flex-flow: column nowrap;
 }
 
+/* main container conatains 2 blocks: menu sidebar and title container */
 #main-container {
     flex: 7;
     display: flex;
     flex-flow: row wrap;
 }
 
+/* title container contains 2 blocks: topbar (title) and content container */
 #title-container {
     flex: 5;
     display: flex;
     flex-flow: column wrap;
 }
 
+/* content container contains 2 blocks: right sidebar and center container */
 #content-container {
     flex: 5;
     display: flex;
     flex-flow: row wrap;
 }
 
+/* center container contains 2 blocks: small text section and main text section */
 #center-container {
     flex: 4;
     display: flex;
     flex-flow: column wrap;
 }
 
+/* center elements inside blocks vertically */
 .num-div {
     display: flex;
     align-items: center;
 }
 
+/* menu sidebar */
 #div1 {
     flex: 1;
     flex-direction: column;
     justify-content: center;
 }
 
+/* topbar (title) */
 #div2 {
     flex: 1;
     justify-content: space-around;
 }
 
+/* small text section */
 #div3 {
     flex: 1;
     justify-content: end;
 }
 
+/* right sidebar */
 #div4 {
     flex: 1;
     justify-content: center;
 }
 
+/* main text section */
 #div5 {
     flex: 15;
     flex-wrap: wrap;
     justify-content: start;
 }
 
+/* footer */
 #div6 {
     flex: 1;
     justify-content: space-around;
 }
 
+/* quotes blocks */
 .text-box {
     background-color: white;
     width: 20%;

@@ -1,3 +1,4 @@
+/* page container */
 #container {
     position: relative;
     width: 100vw;
@@ -8,6 +9,7 @@
     padding: 0;
 }
 
+/* menu sidebar */
 #div1 {
     position: absolute;
     top: 0;
@@ -16,6 +18,7 @@
     height: 80%;
 }
 
+/* topbar (title) */
 #div2 {
     position: absolute;
     top: 0;
@@ -24,6 +27,7 @@
     height: 20%;
 }
 
+/* small text section */
 #div3 {
     position: absolute;
     top: 20%;
@@ -32,6 +36,7 @@
     height: 10%;
 }
 
+/* right sidebar */
 #div4 {
     position: absolute;
     top: 20%;
@@ -40,6 +45,7 @@
     height: 60%;
 }
 
+/* main text section */
 #div5 {
     position: absolute;
     top: 30%;
@@ -48,6 +54,7 @@
     height: 50%;
 }
 
+/* footer */
 #div6 {
     position: absolute;
     top: 80%;
@@ -56,15 +63,19 @@
     height: 20%;
 }
 
+/* menu sidebar content */
 .menu {
     position: absolute;
     top: 50%;
     left: 50%;
     width: 70%;
+    /* translate fuction moves the element 50% of its own width to the left
+    and 50% of its own height to the top */
     transform: translate(-50%, -50%);
     padding: 10px;
 }
 
+/* header and footer inside content divided into 2 columns */
 .columns {
     position: absolute;
     columns: 2;
@@ -75,6 +86,7 @@
     padding: 10px;
 }
 
+/* quotes blocks */
 .text-box {
     background-color: white;
     display: inline-block;
@@ -84,6 +96,7 @@
     text-align: center;
 }
 
+/* small text section content */
 #div3 > * {
     position: absolute;
     width: 98%;
@@ -93,6 +106,7 @@
     transform: translate(-50%, -50%);
 }
 
+/* right sidebar content */
 #div4 > * {
     position: absolute;
     width: 90%;
@@ -101,6 +115,7 @@
     transform: translate(-50%, -50%);
 }
 
+/* main text section content */
 #div5 > * {
     position: absolute;
     width: 98%;
